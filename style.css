@@ -1,0 +1,88 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    /* background-color: rgba(240, 240, 240, 0.8); */
+    border-color: #575F7D;
+}
+
+#profile {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#tennis {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: #6B72E1;
+}
+
+h1 {
+    color: #575F7D;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.header-job {
+    color: #575F7D;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+body {
+    background-color: beige;
+}
+
+p {
+    color: #6B72E1;
+    font-family: serif;
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(25, 8, 88);
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.social {
+    padding: 0px;
+    text-align: center;
+    letter-spacing: 10px;
+    list-style: none;
+}
+
+ul>li {
+    display: inline;
+}
+
+ul {
+    padding: 0px;
+}
+
+li:hover {
+    color: yellow
+}
